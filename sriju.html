@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="image.css"/>
+  <title>PhotoBook</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+.navbar{
+background: white;
+}
+#size{
+   position: absolute;
+   left:280px;
+   top: 150px;
+   margin: 0 auto;
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 55px;
+   }
+#break{
+   position: absolute;
+   left:600px;
+   top:200px;
+   color:grey;
+   }
+
+   #button{
+    position: absolute;
+   left:450px;
+   top:300px;
+   color: black;
+   background-color: transparent;
+     border: 2px solid black;
+    border-radius: 12px; 
+    font-size: 30px;
+     padding: 20px 10px 20px 10px;
+   }
+
+  
+
+
+@media screen and (max-width : 992px) {
+  #size {
+    font-size: 40px;
+  }
+  #break{font-size: 10px;
+    left:500px;}
+#button{font-size: 20px;
+left:300px;}
+
+}
+
+@media only screen and (max-width : 768px)
+{
+  #size
+  {
+    font-size :20px;
+  }
+  #break{
+    font-size: 5px;}
+}
+
+@media only screen and (max-width : 480px)
+{
+  #size
+  {
+    font-size :10px;
+  }
+  #break{}
+  #button{}
+}
+
+
+
+</style>
+<body>
+
+
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#"><img src=hamburger-menu-drawer-three-lines-icon.png height=28></a></li>
+       </a>
+      <li><a href="#"><img src="logo.png" height="28"></a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+     <li class="right"><a href="#contact" style="background-color:yellow;
+    border-radius: 15px;
+    text-decoration: underline;
+     text-decoration-style: dotted;
+     color:black;">+11 235 813 2134</a></li>
+      <li><a href="#"><img src=download.png height=28></a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="abc">
+<img class="image-responsive" src="http://f64academy.com/wp-content/uploads/2013/07/Book-Binding-Example-Artisan-State-Little-Black-Book.jpg" height="auto" width=100%>
+<h3 id="size">CREATE YOUR OWN PHOTOSTORY</h3>
+<h5 id="break"><b>Make your photobook online</b></h5>
+<button id="button">MAKE YOUR OWN PHOTOBOOK</button>
+</div>
+
+</body>
+</html>
