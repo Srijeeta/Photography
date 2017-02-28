@@ -2,12 +2,16 @@
 <html lang="en">
 <head>
 <link rel="stylesheet" type="text/css" href="image.css"/>
+<link rel="stylesheet" type="text/css" href="flex.css"/>
   <title>PhotoBook</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <style type="text/css">
 .navbar{
@@ -40,42 +44,109 @@ background: white;
     font-size: 30px;
      padding: 20px 10px 20px 10px;
    }
-
-  
-
-
-@media screen and (max-width : 992px) {
-  #size {
-    font-size: 40px;
+   #button2{
+      color: white;
+     background-color: #ff0000;
+     border: 2px solid black;
+     border-radius: 12px; 
+    font-size: 15px;
+     padding: 20px 10px 20px 10px;
+   }
+@media (max-width: 480px)
+{
+  #size
+  {
+    font-size: 10px;
+left: 87px;
+top: 250px;
   }
-  #break{font-size: 10px;
-    left:500px;}
-#button{font-size: 20px;
-left:300px;}
+  #break{
+font-size: 5px;
+left: 115px;
+color: black;
+top: 255px;
 
+  }
+  #button{
+left: 110px;
+top: 290px;
+font-size: 4.5px;
+padding: 5px 5px 5px 5px;
+}
 }
 
-@media only screen and (max-width : 768px)
+@media (min-width : 480px) and (max-width: 540px)
+{
+  #size
+  {
+    font-size :15px;
+    left: 85px;
+    top: 250px;
+  }
+  #break{;
+top: 263px;
+left: 140px;
+    font-size: 10px;
+  }
+  #button{
+left: 130px;
+top: 320px;
+font-size: 8px;
+padding: 10px 5px 8px 5px;
+}
+}
+@media (min-width : 541px) and (max-width: 768px)
 {
   #size
   {
     font-size :20px;
+    top:250px;
+    left: 100px;
   }
   #break{
-    font-size: 5px;}
+top: 263px;
+left: 152px;
 }
 
-@media only screen and (max-width : 480px)
+#button{
+ left: 165px;
+top: 350px;
+font-size: 10px;
+padding: 13px 5px 10px 5px;
+}
+}
+@media (min-width : 769px) and (max-width: 1240px)
 {
   #size
   {
-    font-size :10px;
-  }
-  #break{}
-  #button{}
+    font-size: 35px;
+    left: 120px;
 }
-
-
+#break{
+left: 300px;
+top: 195px;
+}
+#button{
+left: 240px;
+top: 300px;
+font-size: 18px;
+}
+@media (min-width : 1241px) and (max-width: 1300px)
+{
+  #size
+  {
+    font-size: 40px;
+}
+#break{
+   left:500px;
+   top:205px;
+}
+#button{
+left: 400px;
+top: 300px;
+font-size: 25px;
+}
+}
 
 </style>
 <body>
@@ -107,6 +178,63 @@ left:300px;}
 <h5 id="break"><b>Make your photobook online</b></h5>
 <button id="button">MAKE YOUR OWN PHOTOBOOK</button>
 </div>
+<div class="container-fluid">
+<img src="bar.png" class="img-responsive margin" atl="">
+</div>
+<div class="container-fluid bg-3 text-center">
+<div class="row">
+    <div class="col-sm-5">
+      <a id="d" style="color:black;" href="#download">Download Photos</a>
+    </div>
+    <div class="col-sm-1"> 
+      <a id="d" style="color:black;" href="#download">Design Photobook</a>
+    </div>
+    <div class="col-sm-1"> 
+      <a id="d" style="color:black;" href="#download">Pay for services</a>
+    </div>
+     <div class="col-sm-5"> 
+      <a id="d" style="color:black" href="#download">Get Your Photobook</a>
+    </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-3 text-center" style="background-color: #ccccff;"> 
+  <div class="row" style="margin-top: 20px;">
+  <h1>ADVANTAGE
+  </h1>
+
+    <div class="col-sm-4">
+      <img src="gol.png" class="img-responsive margin" style="width:100%" alt="Image">
+      <a href="social" style="color:black; font-size: 25px">Import Photos From Your Social Network</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="cat.png" class="img-responsive margin" style="width:100%" alt="Image">
+      <a href="Editor" style="color:black; font-size: 25px">Photo Editing</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      
+    </div>
+    <div class="col-sm-4"> 
+      <img src="block.png" class="img-responsive margin" style="width:100%" alt="Image">
+      <a href="templates" style="color:black; font-size: 25px">Templates</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+  <button id="button2">MAKE YOUR OWN PHOTOBOOK</button>
+  </div>
+  <div class="container-fluid bg-3 text-center"> 
+  <h1>READY SOLUTIONS</h1>
+  <div class="flex-container">
+  <div class="flex-item">LIGHTBOOK
+  <div>
+  <img src="abc.png" class="img" style="width:100%" alt="Image">
+  </div>
+  </div>
+  <div class="flex-item">CLASSICBOOK</div>
+  <div class="flex-item">PRENIUMBOOK</div>  
+</div>
+</div>
+
+
 
 </body>
 </html>
