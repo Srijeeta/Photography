@@ -1,0 +1,74 @@
+@media (max-width: 480px)
+{
+ .low{
+  top: 50px;
+left: 0px;
+margin-top: 400px;
+margin-right: 150px;
+}
+.text-text{}
+#button3{color:black;
+background: transparent;
+border: 2px solid black;
+border-radius: 12px;
+font-size: 15px;
+padding: 20px 10px 20px 10px;
+margin-left: 80px;
+margin-top: 80px;
+margin-bottom: 25px;}
+}
+
+@media (min-width : 480px) and (max-width: 540px)
+{
+  .low{
+ top: 50px;
+left: 0px;
+margin-top: 400px;
+margin-right: 250px;
+}
+.text-text{}
+#button3{color: black;
+background: transparent;
+border: 2px solid black;
+border-radius: 12px;
+font-size: 15px;
+padding: 20px 10px 20px 10px;
+margin-left: 150px;
+margin-top: 80px;
+margin-bottom: 25px;}
+}
+@media (min-width : 541px) and (max-width: 768px)
+{
+ .low{
+ top: 50px;
+left: 0px;
+margin-top: 400px;
+margin-right: 350px;}
+.text-text{}
+#button3{color: black;
+background: transparent;
+border: 2px solid black;
+border-radius: 12px;
+font-size: 15px;
+padding: 20px 10px 20px 10px;
+margin-left: 250px;
+margin-top: 80px;
+margin-bottom: 25px;}
+}
+@media (min-width : 769px) and (max-width: 1240px)
+{
+  .low{
+  top: 50px;
+left: 0px;
+margin-top: 400px;
+margin-right: 400px;}
+.text-text{}
+#button3{
+background: transparent;
+border: 2px solid black;
+border-radius: 12px;
+font-size: 15px;
+padding: 20px 10px 20px 10px;
+margin-left: 345px;
+margin-top: 80px;}
+}

@@ -3,6 +3,8 @@
 <head>
 <link rel="stylesheet" type="text/css" href="image.css"/>
 <link rel="stylesheet" type="text/css" href="flex.css"/>
+<link rel="stylesheet" type="text/css" href="responsive.css"/>
+<link href="https://fonts.googleapis.com/css?family=Arsenal|Josefin+Slab|Julius+Sans+One|Monda" rel="stylesheet"> 
   <title>PhotoBook</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -131,6 +133,7 @@ left: 240px;
 top: 300px;
 font-size: 18px;
 }
+}
 @media (min-width : 1241px) and (max-width: 1300px)
 {
   #size
@@ -176,8 +179,9 @@ font-size: 25px;
 <img class="image-responsive" src="http://f64academy.com/wp-content/uploads/2013/07/Book-Binding-Example-Artisan-State-Little-Black-Book.jpg" height="auto" width=100%>
 <h3 id="size">CREATE YOUR OWN PHOTOSTORY</h3>
 <h5 id="break"><b>Make your photobook online</b></h5>
-<button id="button">MAKE YOUR OWN PHOTOBOOK</button>
+<button id="button">MAKE YOUR PHOTOBOOK</button>
 </div>
+
 <div class="container-fluid">
 <img src="bar.png" class="img-responsive margin" atl="">
 </div>
@@ -197,42 +201,108 @@ font-size: 25px;
     </div>
     </div>
   </div>
+
+
   <div class="container-fluid bg-3 text-center" style="background-color: #ccccff;"> 
   <div class="row" style="margin-top: 20px;">
-  <h1>ADVANTAGE
+  <h1 id="font">ADVANTAGE
   </h1>
 
     <div class="col-sm-4">
       <img src="gol.png" class="img-responsive margin" style="width:100%" alt="Image">
       <a href="social" style="color:black; font-size: 25px">Import Photos From Your Social Network</a>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></p>
     </div>
+
     <div class="col-sm-4"> 
       <img src="cat.png" class="img-responsive margin" style="width:100%" alt="Image">
       <a href="Editor" style="color:black; font-size: 25px">Photo Editing</a>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      
     </div>
+
     <div class="col-sm-4"> 
       <img src="block.png" class="img-responsive margin" style="width:100%" alt="Image">
       <a href="templates" style="color:black; font-size: 25px">Templates</a>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </div>
-  <button id="button2">MAKE YOUR OWN PHOTOBOOK</button>
+  <button id="button2">MAKE YOUR PHOTOBOOK</button>
   </div>
+
+
   <div class="container-fluid bg-3 text-center"> 
-  <h1>READY SOLUTIONS</h1>
+  <h1 id="font">READY SOLUTIONS</h1>
+
   <div class="flex-container">
-  <div class="flex-item">LIGHTBOOK
-  <div>
-  <img src="abc.png" class="img" style="width:100%" alt="Image">
+  <div class="flex-item"><b id="myfont">LIGHTBOOK</b>
+  <div id="a">
+  <ul class="b">
+  <li><i class="glyphicon glyphicon-check"></i>15 x 10 cm</li>
+  <li><i class="glyphicon glyphicon-check"></i>12 pages</li>
+  <li><i class="glyphicon glyphicon-check"></i>binding on the clip</li>
+  </ul>
+  <h1 class="dollar">$129</h1>
+  </div>
+  <p id="text"><b>
+  Make Your LIGHTBOOK</b></p>
+  </div>
+
+  <div class="flex-item"><p id="myfont"><b>CLASSICBOOK</b></p>
+  <div id="a">
+  <ul class="b">
+  <li><i class="glyphicon glyphicon-check"></i>30 x 21 cm</li>
+  <li><i class="glyphicon glyphicon-check"></i>36 pages</li>
+  <li><i class="glyphicon glyphicon-check"></i>binding on the spring</li>
+  <li><i class="glyphicon glyphicon-check"></i>fabric cover</li>
+  </ul>
+  <h1 class="dollar2">$239</h1>
+  </div>
+  <p id="text"><b>
+  Make Your CLASSICBOOK</b></p>
+  </div>
+
+  <div class="flex-item"><b id="myfont">PREMIUMBOOK</b>
+  <div id="a">
+  <ul class="b">
+  <li><i class="glyphicon glyphicon-check"></i>42 X 50 cm</li>
+  <li><i class="glyphicon glyphicon-check"></i>50 pages</li>
+  <li><i class="glyphicon glyphicon-check"></i>hardcover</li>
+  <li><i class="glyphicon glyphicon-check"></i>leather cover</li>
+  <li><i class="glyphicon glyphicon-check"></i>free shipping</li>
+  </ul>
+  <h1 class="dollar3">$759</h1>
+  </div><p id="text"><b>
+  Make Your PREMIUMBOOK</b>
+  </div>
+
   </div>
   </div>
-  <div class="flex-item">CLASSICBOOK</div>
-  <div class="flex-item">PRENIUMBOOK</div>  
+
+<div class="testimonials">
+<div class="container">
+<div class="top" id="nice">
+<p><h1 id="space">TESTIMONIALS</h1></p>
+<img src="photo.png" class="img-circle">
+
+<div class="text-text">
+<p><h4>JOHN DOE</h4></p>
+<p>Wedding Photographer<p></div>
+</div>
+<div>
+<p class="low">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<div>
+<p><a class="arrow" href="next">Next Testimonial  <span class="glyphicon glyphicon-arrow-right"></span></a></p></div>
+<div><button id="button3">MAKE YOUR PHOTOBOOK</button></div>
+
 </div>
 </div>
+
 
 
 

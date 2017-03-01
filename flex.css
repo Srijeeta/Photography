@@ -15,10 +15,75 @@
     margin: 20px;
     border-radius: 12px;
 }
-.img{
+#a{
 display: block;
+background-color: white;
 max-width: 100%;
 height: auto;
-padding: 100px 3px 5px 3px;
- border-radius: 12px;
+margin: 80px 3px 5px 3px;
 }
+
+.b{
+text-align: left;
+}
+.dollar{
+padding-top: 100px;}
+.dollar2{
+padding-top: 80px;}
+.dollar3{
+padding-top: 63px;}
+#text{
+font-family: 'Josefin Slab', serif;
+padding-top: 15px;}
+
+#font{
+font-family: 'Arsenal', sans-serif;
+}
+#myfont{
+font-family: 'Monda', sans-serif;
+font-size: 20px;
+}
+#nice{
+font-family: 'Julius Sans One', sans-serif;
+position: absolute;
+}
+
+.testimonials {
+    background: url(testimonials.png) no-repeat;
+    min-height: 760px;
+    background-size: 100% 100%;
+    }
+
+.text-text{
+float: right;
+}
+
+#space{
+margin-bottom: 60px;}
+
+.low{
+    top: 50px;
+    left: 0px;
+    margin-top: 400px;
+    margin-right: 650px;
+}
+
+.arrow{
+color: black;}
+
+#button3{
+     color: black;
+     background: transparent;
+     border: 2px solid black;
+     border-radius: 12px; 
+     font-size: 15px;
+     padding: 20px 10px 20px 10px;
+     margin-left: 400px;
+     margin-top: 80px;
+}
+#button3:hover{
+opacity: 0.5;}
+#button2:hover{
+opacity: 0.5;}
+#button:hover{
+opacity: 0.5;}
