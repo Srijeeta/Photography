@@ -1,0 +1,18 @@
+#foot{
+background-color: #ffcc00;
+}
+
+#footer{
+	margin-top: 50px;
+	padding-top: 20px;
+	border-top: 2px;
+	border-top-style: solid;
+	border-top-width: 2px;
+}
+
+#pq{
+color: black;
+line-height: 200%;}
+
+#cen{
+text-align: center;}
