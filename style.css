@@ -1,0 +1,24 @@
+#move{
+padding-left: 250px;
+}
+
+#move2{
+padding-left: 150px;}
+
+#move3{
+margin-top: 50px;}
+
+#move4{
+margin-top: 70px;}
+
+#move5{
+margin-bottom: 50px;
+}
+
+#number{
+         background-color: #ffd11a;
+         border-radius: 15px;
+         text-decoration: underline;
+         text-decoration-style: dotted;
+         color:black;
+        }

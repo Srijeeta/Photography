@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="image.css"/>
+<link rel="stylesheet" type="text/css" href="style.css"/>
 <link rel="stylesheet" type="text/css" href="flex.css"/>
 <link rel="stylesheet" type="text/css" href="responsive.css"/>
 <link rel="stylesheet" type="text/css" href="footer.css"/>
@@ -24,10 +24,10 @@ background: white;
 }
 #size{
    position: absolute;
-   left:280px;
+   left:320px;
    top: 150px;
    margin: 0 auto;
-    color: white;
+    color: black;
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 55px;
    }
@@ -40,8 +40,8 @@ background: white;
 
    #button{
     position: absolute;
-   left:450px;
    top:300px;
+     left:500px;
    color: black;
    background-color: transparent;
      border: 2px solid black;
@@ -88,7 +88,7 @@ padding: 5px 5px 5px 5px;
     left: 85px;
     top: 250px;
   }
-  #break{;
+  #break{
 top: 263px;
 left: 140px;
     font-size: 10px;
@@ -168,51 +168,42 @@ font-size: 25px;
       <li><a href="#"><img src="logo.png" height="28"></a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-     <li class="right"><a href="#contact" style="background-color:yellow;
-    border-radius: 15px;
-    text-decoration: underline;
-     text-decoration-style: dotted;
-     color:black;">+11 235 813 2134</a></li>
+     <li class="right"><a href="#contact" id="number">+11 235 813 2134</a></li>
       <li><a href="#"><img src=download.png height=28></a></li>
     </ul>
   </div>
 </nav>
   
 <div class="abc">
-<img class="image-responsive" src="http://f64academy.com/wp-content/uploads/2013/07/Book-Binding-Example-Artisan-State-Little-Black-Book.jpg" height="auto" width=100%>
+<img class="image-responsive" src="original.png" height="auto" width=100%>
+<div class="container-fluid bg-3 text-center">
 <h3 id="size">CREATE YOUR OWN PHOTOSTORY</h3>
 <h5 id="break"><b>Make your photobook online</b></h5>
 <button id="button">MAKE YOUR PHOTOBOOK</button>
 </div>
-
-<div class="container-fluid">
-<img src="bar.png" class="img-responsive margin" atl="">
 </div>
-<div class="container-fluid bg-3 text-center">
-<div class="row">
-    <div class="col-sm-5">
-      <a id="d" style="color:black;" href="#download">Download Photos</a>
-    </div>
-    <div class="col-sm-1"> 
-      <a id="d" style="color:black;" href="#download">Design Photobook</a>
-    </div>
-    <div class="col-sm-1"> 
-      <a id="d" style="color:black;" href="#download">Pay for services</a>
-    </div>
-     <div class="col-sm-5"> 
-      <a id="d" style="color:black" href="#download">Get Your Photobook</a>
-    </div>
-    </div>
-  </div>
+<div class="container">
+<div class="col-md-6" id="remove">
+<div class="col-sm-12">
+<img src="bar1.png" class="img-responsive">
+</div>
+</div>
+
+<div class="col-md-6" id="remove2">
+<img src="bar2.png" class="img-responsive">
+</div>
+</div>
+
+  
 
 
-  <div class="container-fluid bg-3 text-center" style="background-color: #ccccff;"> 
-  <div class="row" style="margin-top: 20px;">
+  <div class="container-fluid bg-3 text-center" id="move4" style="background-color: #ccccff;"> 
+  <div class="row">
   <h1 id="font">ADVANTAGE
   </h1>
 
     <div class="col-sm-4">
-      <img src="gol.png" class="img-responsive margin" style="width:100%" alt="Image">
+      <img src="gol.png" class="img-responsive margin" style="width:100%;border-radius: 50%" alt="Image">
       <a href="social" style="color:black; font-size: 25px">Import Photos From Your Social Network</a>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></p>
     </div>
@@ -229,12 +220,12 @@ font-size: 25px;
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </div>
-  <div><button id="button2">MAKE YOUR PHOTOBOOK</button></div>
+  <div id="move5"><button id="button2">MAKE YOUR PHOTOBOOK</button></div>
   </div>
 
 
   
-<div class="container-fluid bg-3 text-center"><h1 id="font">READY SOLUTIONS</h1>
+<div class="container-fluid bg-3 text-center"><h1 id="font2">READY SOLUTIONS</h1>
 
 <div class="col-sm-4">
 <div class="flex-container">
@@ -285,7 +276,7 @@ font-size: 25px;
   </ul>
   <h1 class="dollar3">$759</h1>
   </div><p id="text"><b>
-  Make Your PREMIUMBOOK</b>
+  Make Your PREMIUMBOOK</b></p>
   </div></div>
 </div>
 
@@ -313,7 +304,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 <div>
 <p><a class="arrow" href="next">Next Testimonial  <span class="glyphicon glyphicon-arrow-right"></span></a></p></div>
-<div><button id="button3">MAKE YOUR PHOTOBOOK</button></div>
+<div class="container-fluid bg-3 text-center"><button id="button3">MAKE YOUR PHOTOBOOK</button></div>
 
 </div>
 </div>
@@ -326,8 +317,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <div id="e">
   <p id="space">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua.</p>
-<p id="space2">Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur.</p>
+<p id="space2">Duis aute irure dolor in reprehenderit in voluptate.</p>
   </div>
   </div>
   </div>
@@ -337,7 +327,7 @@ cillum dolore eu fugiat nulla pariatur.</p>
     <div class="col-sm-4"> 
       <div class="flex-container"><div class="flex-item2"><b id="myfont">PAYMENT</b>
   <div id="c">
-  <div id="d">
+  <div id="f">
   <ul style="line-height: 288%;">
   <p>Payment methods :</p>
   <li>VISA</li>
@@ -365,7 +355,7 @@ consequat.</p>
   </div></div>
     </div>
 
-    <div><button id="button4">MAKE YOUR PHOTOBOOK</button></div>
+    <div class="container-fluid bg-3 text-center"><button id="button4">MAKE YOUR PHOTOBOOK</button></div>
 
 
     <div id="foot">
