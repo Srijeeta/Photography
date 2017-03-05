@@ -155,6 +155,18 @@ font-size: 25px;
 }
 
 </style>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
 <body>
 
 
@@ -163,7 +175,7 @@ font-size: 25px;
     <div class="navbar-header">
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#"><img src=hamburger-menu-drawer-three-lines-icon.png height=28></a></li>
+      <li class="active"><a onclick="openNav()"><img src=hamburger-menu-drawer-three-lines-icon.png height=28></a></li>
        </a>
       <li><a href="#"><img src="logo.png" height="28"></a></li>
     </ul>
@@ -173,6 +185,17 @@ font-size: 25px;
     </ul>
   </div>
 </nav>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Contacts</a>
+  <a href="#">Payment</a>
+</div>
+
+
+
   
 <div class="abc">
 <img class="image-responsive" src="original.png" height="auto" width=100%>
@@ -182,15 +205,15 @@ font-size: 25px;
 <button id="button">MAKE YOUR PHOTOBOOK</button>
 </div>
 </div>
+
+
 <div class="container">
 <div class="col-md-6" id="remove">
-<div class="col-sm-12">
 <img src="bar1.png" class="img-responsive">
-</div>
 </div>
 
 <div class="col-md-6" id="remove2">
-<img src="bar2.png" class="img-responsive">
+<img src="ba2.png" class="img-responsive">
 </div>
 </div>
 
@@ -214,7 +237,7 @@ font-size: 25px;
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
 
-    <div class="col-sm-4"> 
+    <div class="col-md-4"> 
       <img src="block.png" class="img-responsive margin" style="width:100%" alt="Image">
       <a href="templates" style="color:black; font-size: 25px">Templates</a>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -227,7 +250,7 @@ font-size: 25px;
   
 <div class="container-fluid bg-3 text-center"><h1 id="font2">READY SOLUTIONS</h1>
 
-<div class="col-sm-4">
+<div class="col-md-4">
 <div class="flex-container">
   <div class="flex-item"><b id="myfont">LIGHTBOOK</b>
   <div id="a">
@@ -245,7 +268,7 @@ font-size: 25px;
 
 
 
-<div class="col-sm-4">
+<div class="col-md-4">
 <div class="flex-container">
 <div class="flex-item"><p id="myfont"><b>CLASSICBOOK</b></p>
   <div id="a">

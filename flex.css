@@ -40,7 +40,13 @@ padding-top: 15px;}
 #font{
 font-family: 'Arsenal', sans-serif;
 margin-top: 60px;
+margin-bottom: 60px;
 }
+#font2{
+font-family: 'Arsenal', sans-serif;
+margin-top: 60px;
+}
+
 #myfont{
 font-family: 'Monda', sans-serif;
 font-size: 20px;
@@ -61,7 +67,7 @@ float: right;
 }
 
 #space{
-margin-bottom: 60px;}
+margin-bottom: 30px;}
 
 .low{
     top: 50px;
@@ -80,15 +86,14 @@ color: black;}
      border-radius: 12px; 
      font-size: 15px;
      padding: 20px 10px 20px 10px;
-     margin-left: 400px;
      margin-top: 80px;
 }
 #button3:hover{
-opacity: 0.5;}
+background-color: #ffcc00;}
 #button2:hover{
 opacity: 0.5;}
 #button:hover{
-opacity: 0.5;}
+background-color: #ffcc00;}
 
 .testimonials{
 margin-top: 50px;}
@@ -98,7 +103,7 @@ background-color: white;
 padding-top: 0.5px;
 }
 
-#d{
+#f{
 background-color: #fff2e6;
 margin-top: 15px;
 }
@@ -114,6 +119,7 @@ padding: 20px 10px 0px 10px;
 
 #col{
     color: red;
+    padding-left: 10px;
 }
 
 
@@ -133,13 +139,12 @@ padding: 0px 20px 10px;
 }
 
 #button4::hover{
-    opacity: 0.5;
+    opacity: 0.5%;
 }
 
 
 #button4{
     margin-top: 150px;
-    margin-left: 710px;
      color: white;
      background-color: #ff0000;
      border: 2px solid black;
@@ -148,4 +153,3 @@ padding: 0px 20px 10px;
      padding: 20px 10px 20px 10px;
      margin-bottom: 50px;
 }
-
