@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
 <link rel="stylesheet" type="text/css" href="style.css"/>
-<link rel="stylesheet" type="text/css" href="flex.css"/>
-<link rel="stylesheet" type="text/css" href="responsive.css"/>
 <link rel="stylesheet" type="text/css" href="footer.css"/>
 <link href="https://fonts.googleapis.com/css?family=Arsenal|Josefin+Slab|Julius+Sans+One|Monda" rel="stylesheet"> 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
   <title>PhotoBook</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,140 +18,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <style type="text/css">
-.navbar{
-background: white;
-}
-#size{
-   position: absolute;
-   left:320px;
-   top: 150px;
-   margin: 0 auto;
-    color: black;
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 55px;
-   }
-#break{
-   position: absolute;
-   left:600px;
-   top:200px;
-   color:grey;
-   }
 
-   #button{
-    position: absolute;
-   top:300px;
-     left:500px;
-   color: black;
-   background-color: transparent;
-     border: 2px solid black;
-    border-radius: 12px; 
-    font-size: 30px;
-     padding: 20px 10px 20px 10px;
-   }
-   #button2{
-      color: white;
-     background-color: #ff0000;
-     border: 2px solid black;
-     border-radius: 12px; 
-    font-size: 15px;
-     padding: 20px 10px 20px 10px;
-   }
-@media (max-width: 480px)
-{
-  #size
-  {
-    font-size: 10px;
-left: 87px;
-top: 250px;
-  }
-  #break{
-font-size: 5px;
-left: 115px;
-color: black;
-top: 255px;
-
-  }
-  #button{
-left: 110px;
-top: 290px;
-font-size: 4.5px;
-padding: 5px 5px 5px 5px;
-}
-}
-
-@media (min-width : 480px) and (max-width: 540px)
-{
-  #size
-  {
-    font-size :15px;
-    left: 85px;
-    top: 250px;
-  }
-  #break{
-top: 263px;
-left: 140px;
-    font-size: 10px;
-  }
-  #button{
-left: 130px;
-top: 320px;
-font-size: 8px;
-padding: 10px 5px 8px 5px;
-}
-}
-@media (min-width : 541px) and (max-width: 768px)
-{
-  #size
-  {
-    font-size :20px;
-    top:250px;
-    left: 100px;
-  }
-  #break{
-top: 263px;
-left: 152px;
-}
-
-#button{
- left: 165px;
-top: 350px;
-font-size: 10px;
-padding: 13px 5px 10px 5px;
-}
-}
-@media (min-width : 769px) and (max-width: 1240px)
-{
-  #size
-  {
-    font-size: 35px;
-    left: 120px;
-}
-#break{
-left: 300px;
-top: 195px;
-}
-#button{
-left: 240px;
-top: 300px;
-font-size: 18px;
-}
-}
-@media (min-width : 1241px) and (max-width: 1300px)
-{
-  #size
-  {
-    font-size: 40px;
-}
-#break{
-   left:500px;
-   top:205px;
-}
-#button{
-left: 400px;
-top: 300px;
-font-size: 25px;
-}
-}
 
 </style>
 
@@ -169,15 +35,15 @@ function closeNav() {
 
 <body>
 
-
+<div class="container">
 <nav class="navbar">
-  <div class="container-fluid">
+  <div class="container-fluid" id="mar">
     <div class="navbar-header">
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a onclick="openNav()"><img src=hamburger-menu-drawer-three-lines-icon.png height=28></a></li>
+      <li class="active"><a onclick="openNav()"><div class="menu"></div><div class="menu"></div><div class="menu"></div></a></li>
        </a>
-      <li><a href="#"><img src="logo.png" height="28"></a></li>
+      <li><a href="#"><img src="logo.png"></a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
      <li class="right"><a href="#contact" id="number">+11 235 813 2134</a></li>
@@ -185,6 +51,7 @@ function closeNav() {
     </ul>
   </div>
 </nav>
+</div>
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -198,7 +65,7 @@ function closeNav() {
 
   
 <div class="abc">
-<img class="image-responsive" src="original.png" height="auto" width=100%>
+<img class="image-responsive" id="mar3" src="original.png" height="auto" width=100%>
 <div class="container-fluid bg-3 text-center">
 <h3 id="size">CREATE YOUR OWN PHOTOSTORY</h3>
 <h5 id="break"><b>Make your photobook online</b></h5>
@@ -224,40 +91,56 @@ function closeNav() {
   <div class="row">
   <h1 id="font">ADVANTAGE
   </h1>
-
+    
     <div class="col-sm-4">
-      <img src="gol.png" class="img-responsive margin" style="width:100%;border-radius: 50%" alt="Image">
+      <img src="gol.png" class="img-responsive" style="width:100%;border-radius: 50%;" alt="Image">
+      <div class="caption">
       <a href="social" style="color:black; font-size: 25px">Import Photos From Your Social Network</a>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></p>
+      </div>
     </div>
+  
+
 
     <div class="col-sm-4"> 
-      <img src="cat.png" class="img-responsive margin" style="width:100%" alt="Image">
+      <img src="cat.png" class="img-responsive margin" style="width:100%;" alt="Image">
+      <div class="caption">
       <a href="Editor" style="color:black; font-size: 25px">Photo Editing</a>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
+   </div>
 
     <div class="col-md-4"> 
+    <div class="thumbnail">
       <img src="block.png" class="img-responsive margin" style="width:100%" alt="Image">
+      </div>
+      <div class="caption">
       <a href="templates" style="color:black; font-size: 25px">Templates</a>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
+    </div>
+
+
   </div>
+
   <div id="move5"><button id="button2">MAKE YOUR PHOTOBOOK</button></div>
+  
   </div>
+  
 
 
   
 <div class="container-fluid bg-3 text-center"><h1 id="font2">READY SOLUTIONS</h1>
+<div class="container">
 
 <div class="col-md-4">
 <div class="flex-container">
   <div class="flex-item"><b id="myfont">LIGHTBOOK</b>
   <div id="a">
   <ul class="b">
-  <li><i class="glyphicon glyphicon-check"></i>15 x 10 cm</li>
-  <li><i class="glyphicon glyphicon-check"></i>12 pages</li>
-  <li><i class="glyphicon glyphicon-check"></i>binding on the clip</li>
+  <i class="glyphicon glyphicon-check" id="yel"></i>   15 x 10 cm<br>
+  <i class="glyphicon glyphicon-check" id="yel"></i>   12 pages<br>
+  <i class="glyphicon glyphicon-check" id="yel"></i>   binding on the clip<br>
   </ul>
   <h1 class="dollar">$129</h1>
   </div>
@@ -273,10 +156,10 @@ function closeNav() {
 <div class="flex-item"><p id="myfont"><b>CLASSICBOOK</b></p>
   <div id="a">
   <ul class="b">
-  <li><i class="glyphicon glyphicon-check"></i>30 x 21 cm</li>
-  <li><i class="glyphicon glyphicon-check"></i>36 pages</li>
-  <li><i class="glyphicon glyphicon-check"></i>binding on the spring</li>
-  <li><i class="glyphicon glyphicon-check"></i>fabric cover</li>
+  <i class="glyphicon glyphicon-check" id="yel"></i>  30 x 21 cm<br>
+  <i class="glyphicon glyphicon-check" id="yel"></i>  36 pages<br>
+  <i class="glyphicon glyphicon-check" id="yel"></i>  binding on the spring<br>
+  <i class="glyphicon glyphicon-check" id="yel"></i>  fabric cover<br>
   </ul>
   <h1 class="dollar2">$239</h1>
   </div>
@@ -291,18 +174,18 @@ function closeNav() {
 <div class="flex-container">  <div class="flex-item"><b id="myfont">PREMIUMBOOK</b>
   <div id="a">
   <ul class="b">
-  <li><i class="glyphicon glyphicon-check"></i>42 X 50 cm</li>
-  <li><i class="glyphicon glyphicon-check"></i>50 pages</li>
-  <li><i class="glyphicon glyphicon-check"></i>hardcover</li>
-  <li><i class="glyphicon glyphicon-check"></i>leather cover</li>
-  <li><i class="glyphicon glyphicon-check"></i>free shipping</li>
+  <i class="glyphicon glyphicon-check" id="yel"></i>  42 X 50 cm<br>
+  <i class="glyphicon glyphicon-check" id="yel"></i>  50 pages<br>
+  <i class="glyphicon glyphicon-check" id="yel"></i>  hardcover<br>
+  <i class="glyphicon glyphicon-check" id="yel"></i>  leather cover<br>
+  <i class="glyphicon glyphicon-check" id="yel"></i>  free shipping<br>
   </ul>
   <h1 class="dollar3">$759</h1>
   </div><p id="text"><b>
   Make Your PREMIUMBOOK</b></p>
   </div></div>
 </div>
-
+</div>
 
  </div>
 
@@ -326,16 +209,16 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 <div>
-<p><a class="arrow" href="next">Next Testimonial  <span class="glyphicon glyphicon-arrow-right"></span></a></p></div>
+<p><a class="arrow" href="next">Next Testimonial    <span class="glyphicon glyphicon-arrow-right"></span></a></p></div>
 <div class="container-fluid bg-3 text-center"><button id="button3">MAKE YOUR PHOTOBOOK</button></div>
 
 </div>
 </div>
 
-
+<div class="container">
 <div class="col-sm-4">
      <div class="flex-container">
-      <div class="flex-item2"><b id="myfont">TERMS</b>
+      <div class="flex-item2"><b id="myfont" class="mar2">TERMS</b>
   <div id="c">
   <div id="e">
   <p id="space">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -348,7 +231,7 @@ tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
 
     <div class="col-sm-4"> 
-      <div class="flex-container"><div class="flex-item2"><b id="myfont">PAYMENT</b>
+      <div class="flex-container"><div class="flex-item2"><b id="myfont" class="mar2">PAYMENT</b>
   <div id="c">
   <div id="f">
   <ul style="line-height: 288%;">
@@ -365,7 +248,7 @@ tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
 
     <div class="col-sm-4"> 
-      <div class="flex-container">   <div class="flex-item2"><b id="myfont">SHIPPING</b>
+      <div class="flex-container">   <div class="flex-item2"><b id="myfont" class="mar2">SHIPPING</b>
   <div id="c">
   <div id="e">
   <p id="space3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -376,6 +259,7 @@ consequat.</p>
   </div>
   </div>
   </div></div>
+    </div>
     </div>
 
     <div class="container-fluid bg-3 text-center"><button id="button4">MAKE YOUR PHOTOBOOK</button></div>

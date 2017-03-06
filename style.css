@@ -21,6 +21,7 @@ margin-bottom: 50px;
          text-decoration: underline;
          text-decoration-style: dotted;
          color:black;
+         margin-right: 10px;
         }
 #remove{
 	margin-top: 60px;
@@ -71,4 +72,391 @@ padding: 0px;}
   .sidenav a {font-size: 18px;}
 }
 
+
+.navbar{
+background: white;
+}
+#size{
+   position: absolute;
+   left:320px;
+   top: 150px;
+   margin: 0 auto;
+    color: black;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 55px;
+   }
+#break{
+   position: absolute;
+   left:600px;
+   top:200px;
+   color:black;
+   letter-spacing: 2px;
+   }
+
+   #button{
+    position: absolute;
+   top:300px;
+     left:500px;
+   color: black;
+   background-color: transparent;
+     border: 2px solid black;
+    border-radius: 12px; 
+    font-size: 30px;
+     padding: 20px 10px 20px 10px;
+     letter-spacing: 3px;
+     word-spacing: 2px;
+   }
+   #button2{
+      color: white;
+     background-color: #ff0000;
+     border: 2px solid black;
+     border-radius: 12px; 
+    font-size: 15px;
+     padding: 20px 10px 20px 10px;
+       letter-spacing: 3px;
+     word-spacing: 2px;
+
+   }
+@media (max-width: 480px)
+{
+  #size
+  {
+    font-size: 10px;
+left: 87px;
+top: 250px;
+  }
+  #break{
+font-size: 5px;
+left: 115px;
+color: black;
+top: 255px;
+
+  }
+  #button{
+left: 110px;
+top: 290px;
+font-size: 4.5px;
+padding: 5px 5px 5px 5px;
+}
+}
+
+@media (min-width : 480px) and (max-width: 540px)
+{
+  #size
+  {
+    font-size :15px;
+    left: 85px;
+    top: 250px;
+  }
+  #break{
+top: 263px;
+left: 140px;
+    font-size: 10px;
+  }
+  #button{
+left: 130px;
+top: 320px;
+font-size: 8px;
+padding: 10px 5px 8px 5px;
+}
+}
+@media (min-width : 541px) and (max-width: 768px)
+{
+  #size
+  {
+    font-size :20px;
+    top:250px;
+    left: 100px;
+  }
+  #break{
+top: 263px;
+left: 152px;
+}
+
+#button{
+ left: 165px;
+top: 350px;
+font-size: 10px;
+padding: 13px 5px 10px 5px;
+}
+}
+@media (min-width : 769px) and (max-width: 1240px)
+{
+  #size
+  {
+    font-size: 35px;
+    left: 120px;
+}
+#break{
+left: 300px;
+top: 195px;
+}
+#button{
+left: 240px;
+top: 300px;
+font-size: 18px;
+}
+}
+@media (min-width : 1241px) and (max-width: 1300px)
+{
+  #size
+  {
+    font-size: 40px;
+}
+#break{
+   left:500px;
+   top:205px;
+}
+#button{
+left: 400px;
+top: 300px;
+font-size: 25px;
+}
+}
+
+@media (max-width: 480px)
+{
+ .low{
+  top: 50px;
+left: 0px;
+margin-top: 400px;
+margin-right: 150px;
+}
+#button3{color:black;
+background: transparent;
+border: 2px solid black;
+border-radius: 12px;
+font-size: 15px;
+padding: 20px 10px 20px 10px;
+margin-left: 80px;
+margin-top: 80px;
+margin-bottom: 25px;}
+
+#remove{
+padding-left: 0px;}
+
+
+}
+
+@media (min-width : 480px) and (max-width: 540px)
+{
+  .low{
+ top: 50px;
+left: 0px;
+margin-top: 400px;
+margin-right: 250px;
+}
+#remove{
+padding-left: 0px;}
+
+}
+@media (min-width : 541px) and (max-width: 768px)
+{
+ .low{
+ top: 50px;
+left: 0px;
+margin-top: 400px;
+margin-right: 350px;}
+#remove{
+padding-left: 0px;}
+
+}
+@media (min-width : 769px) and (max-width: 1240px)
+{
+  .low{
+  top: 50px;
+left: 0px;
+margin-top: 400px;
+margin-right: 400px;}
+#remove{
+padding-left: 0px;}
+
+}
+
+.flex-container {
+    
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.flex-item {
+    background-color: #ffcc00;
+    width: 250px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 12px;
+}
+#a{
+display: block;
+background-color: white;
+max-width: 100%;
+height: auto;
+margin: 50px 3px 5px 2.5px;
+}
+
+.b{
+text-align: left;
+}
+.dollar{
+padding-top: 100px;}
+.dollar2{
+padding-top: 80px;}
+.dollar3{
+padding-top: 63px;}
+#text{
+font-family: 'Josefin Slab', serif;
+padding-top: 20px;
+font-size: 15px;}
+
+#font{
+font-family: 'Arsenal', sans-serif;
+margin-top: 60px;
+margin-bottom: 60px;
+}
+#font2{
+font-family: 'Arsenal', sans-serif;
+margin-top: 60px;
+}
+
+#myfont{
+font-family: 'Julius Sans One', sans-serif;
+font-size: 30px;
+}
+#nice{
+font-family: 'Julius Sans One', sans-serif;
+position: absolute;
+}
+
+.testimonials {
+    background: url(testimonials.png) no-repeat;
+    min-height: 760px;
+    background-size: 100% 100%;
+    }
+
+.text-text{
+float: right;
+}
+
+#space{
+margin-bottom: 30px;
+}
+
+.low{
+    top: 50px;
+    left: 0px;
+    margin-top: 400px;
+    margin-right: 650px;
+}
+
+.arrow{
+color: black;}
+
+#button3{
+     color: black;
+     background: transparent;
+     border: 2px solid black;
+     border-radius: 12px; 
+     font-size: 15px;
+     padding: 20px 10px 20px 10px;
+     margin-top: 80px;
+     letter-spacing: 3px;
+     word-spacing: 2px;
+
+}
+#button3:hover{
+background-color: #ffcc00;}
+#button2:hover{
+opacity: 0.5;}
+#button:hover{
+background-color: #ffcc00;}
+
+.testimonials{
+margin-top: 50px;}
+
+#c{
+background-color: white;
+padding-top: 0.5px;
+}
+
+#f{
+background-color: #fff2e6;
+margin-top: 15px;
+}
+#e{
+    background-color: #fff2e6;
+margin-top: 15px;
+height: 210px;
+}
+#space3{
+padding: 20px 10px 0px 10px;
+}
+
+
+#col{
+    color: red;
+    padding-left: 10px;
+}
+
+
+.flex-item2{
+   background-color:  #ffcc00;
+width: 300px;
+height: 150px;
+margin: 20px;
+border-radius: 12px;
+}
+
+#space{
+   padding: 20px 20px 0px 20px;
+}
+
+
+#space2{
+padding: 0px 20px 10px;
+}
+
+#button4:hover{
+    opacity: 0.5;
+}
+
+
+#button4{
+    margin-top: 150px;
+     color: white;
+     background-color: #ff0000;
+     border: 2px solid black;
+     border-radius: 12px; 
+    font-size: 15px;
+     padding: 20px 10px 20px 10px;
+     margin-bottom: 50px;
+       letter-spacing: 3px;
+     word-spacing: 2px;
+
+}
+
+#mar{
+margin-top: 15px;
+margin-bottom: 10px;
+}
+
+.mar2{
+margin-left: 80px;}
+
+#yel{
+color: #ffcc00;
+}
+
+.menu{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;}
+
+    #mar3{
+      margin-top: -20px;}
 
