@@ -82,7 +82,7 @@ background: white;
    top: 150px;
    margin: 0 auto;
     color: black;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 55px;
    }
 #break{
@@ -115,6 +115,7 @@ background: white;
      padding: 20px 10px 20px 10px;
        letter-spacing: 3px;
      word-spacing: 2px;
+     margin-top: 60px;
 
    }
 @media (max-width: 480px)
@@ -123,18 +124,18 @@ background: white;
   {
     font-size: 10px;
 left: 87px;
-top: 250px;
+top: 270px;
   }
   #break{
 font-size: 5px;
 left: 115px;
 color: black;
-top: 255px;
+top: 270px;
 
   }
   #button{
 left: 110px;
-top: 290px;
+top: 310px;
 font-size: 4.5px;
 padding: 5px 5px 5px 5px;
 }
@@ -145,17 +146,17 @@ padding: 5px 5px 5px 5px;
   #size
   {
     font-size :15px;
-    left: 85px;
-    top: 250px;
+    left: 110px;
+    top: 270px;
   }
   #break{
-top: 263px;
+top: 277px;
 left: 140px;
     font-size: 10px;
   }
   #button{
-left: 130px;
-top: 320px;
+left: 150px;
+top: 350px;
 font-size: 8px;
 padding: 10px 5px 8px 5px;
 }
@@ -165,17 +166,17 @@ padding: 10px 5px 8px 5px;
   #size
   {
     font-size :20px;
-    top:250px;
-    left: 100px;
+    top:300px;
+    left: 190px;
   }
   #break{
-top: 263px;
-left: 152px;
+top: 320px;
+left: 210px;
 }
 
 #button{
- left: 165px;
-top: 350px;
+ left: 245px;
+top: 400px;
 font-size: 10px;
 padding: 13px 5px 10px 5px;
 }
@@ -286,17 +287,18 @@ padding-left: 0px;}
 
 .flex-item {
     background-color: #ffcc00;
-    width: 250px;
+    width: 300px;
     height: 400px;
     margin: 20px;
     border-radius: 12px;
+    z-index: 99;
 }
 #a{
 display: block;
 background-color: white;
 max-width: 100%;
 height: auto;
-margin: 50px 3px 5px 2.5px;
+margin: 30px 5px 0px 4px;
 }
 
 .b{
@@ -324,9 +326,11 @@ margin-top: 60px;
 }
 
 #myfont{
-font-family: 'Julius Sans One', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
 font-size: 30px;
+margin-top: 25px;
 }
+
 #nice{
 font-family: 'Julius Sans One', sans-serif;
 position: absolute;
@@ -336,11 +340,13 @@ position: absolute;
     background: url(testimonials.png) no-repeat;
     min-height: 760px;
     background-size: 100% 100%;
+    margin-top: 50px;
     }
 
 .text-text{
 float: right;
-}
+margin-top: 40px;
+margin-left: 20px;}
 
 #space{
 margin-bottom: 30px;
@@ -349,12 +355,18 @@ margin-bottom: 30px;
 .low{
     top: 50px;
     left: 0px;
-    margin-top: 400px;
+    margin-top: 300px;
     margin-right: 650px;
 }
+.low2{
+  top: 50px;
+    left: 0px;
+    margin-right: 650px;}
+
 
 .arrow{
-color: black;}
+color: black;
+text-align: center;}
 
 #button3{
      color: black;
@@ -375,8 +387,7 @@ opacity: 0.5;}
 #button:hover{
 background-color: #ffcc00;}
 
-.testimonials{
-margin-top: 50px;}
+
 
 #c{
 background-color: white;
@@ -460,3 +471,85 @@ color: #ffcc00;
     #mar3{
       margin-top: -20px;}
 
+
+#adv{
+background-color: #f3f0e7;
+margin-top: 20px;
+}
+#adv2{
+text-align: center;
+font-family: 'Arsenal', sans-serif;
+}
+.caption{
+text-align: center;}
+
+#header{
+font-size: 50px;
+margin-top: 40px;
+}
+
+#gap{
+margin-top: 50px;}
+
+.caption{
+margin-top: 20px;}
+
+#gap2{
+margin-top:20px;
+}
+#gap3{
+margin-top: 50px;}
+
+.hexagon{
+   position: absolute;
+    }
+
+#tag{
+color: red;
+text-align: center;
+z-index: 99;
+margin-left: 25%;
+}
+
+#middle{
+margin-left: 25%;
+margin-top: 5%;
+margin-bottom: -30%;}
+
+
+
+@media (max-width: 480px)
+{
+#middle{
+margin-left:10%;
+}
+#tag{}
+
+}
+
+@media (min-width : 480px) and (max-width: 540px)
+{
+#middle{
+  margin-left:20%;
+}
+#tag{}
+
+}
+@media (min-width : 541px) and (max-width: 768px)
+{
+
+#middle{
+margin-left:30%;
+}
+#tag{}
+
+}
+@media (min-width : 769px) and (max-width: 1240px)
+{
+
+#middle{
+margin-left:27%;
+}
+#tag{}
+
+}
