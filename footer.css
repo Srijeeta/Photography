@@ -16,5 +16,30 @@ line-height: 200%;}
 
 #cen{
 text-align: center;
-margin-top: 60px;
+margin-top: 69px;
+}
+
+.footer-left{
+font-size:35px;
+}
+
+#np{
+margin-top: 46px;
+
+}
+
+.right2{
+width: 50%;
+float:right;
+}
+
+#hrr{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid black;
+}
+
+#n{
+margin-left: 10px;
 }
