@@ -3,11 +3,8 @@ background-color: #ffcc00;
 }
 
 #footer{
-	margin-top: 50px;
+	
 	padding-top: 20px;
-	border-top: 2px;
-	border-top-style: solid;
-	border-top-width: 2px;
 }
 
 #pq{
@@ -34,11 +31,17 @@ float:right;
 }
 
 #hrr{
-    margin-top: 50px;
     margin-bottom: 20px;
     border: 0;
     border-top: 1px solid black;
 }
+#hrr2{
+    margin-top: 40px;
+    border: 0;
+    border-top: 1px solid black;
+}
+
+
 
 #n{
 margin-left: 10px;
