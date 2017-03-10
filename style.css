@@ -178,6 +178,18 @@ visibility: hidden;
     margin-top: 50px;
 }
 
+.flex-container4 {
+    
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    position: relative;
+}
+
 .flex-item {
     background-color: rgb(255,210,0);
     width: 300px;
@@ -419,50 +431,13 @@ margin-left: 25%;
 }
 
 #middle{
-     margin-left: 26%;
-margin-top: 7%;
-
+   position: absolute;
+   top: -30px;
+  left: 50%;
+   transform: translate(-50%, 0);
 }
 
 
-@media (min-width: 320px) and (max-width: 480px)
-{
-#middle{
-margin-top: -13%;
-margin-left: 14%;
-}
-}
-
-@media (min-width: 360px) and (max-width: 640px){
-#middle{
-margin-top: -12%;
-margin-left: 21%;
-}
-}
-
-
-@media (min-width: 760px) and (max-width: 1024px){
-#middle{
-margin-top: -7%;
-margin-left: 55%;
-}
-}
-
-@media (min-width: 760px) and (max-width: 1024px){
-#middle{
-margin-top: -15%;
-margin-left: 123%;
-}
-}
-
-@media (min-width: 1240px)
-{
-
-#middle{
-margin-left: 75px;
-margin-top: 19px;
-}
-}
 
 
 
@@ -474,6 +449,7 @@ margin-top: 19px;
     height: auto;
     background-color: white;
     margin-top: 50px;
+
 }
 
 .flex-container3{
@@ -488,7 +464,14 @@ margin-top: 19px;
 
 
 
-@media (max-width: 480px)
+
+
+.hey{
+text-align: center;
+position: relative;
+}
+
+@media (max-width: 320px)
 {
 .flex-container2{
 margin-top: 100px;
@@ -498,17 +481,25 @@ margin-top: 130px;
 }
 }
 
+@media (max-width: 768px){
+
+ .flex-container2{
+margin-top: 141px;
+ }
 
 
- @media (min-width: 750px) and (max-width: 970px){
 .flex-container3{
   margin-top: 141px;
  }
+
 }
 
-.hey{
-text-align: center;
-position: relative;
+@media (max-width: 990px){
+
+.flex-container3{
+  margin-top: 141px;
+ }
+
 }
 
-
+}
