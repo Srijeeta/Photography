@@ -3,6 +3,26 @@
 background-size: 100% 100%;
 }
 
+#mov2{
+margin-right: 152px;
+}
+
+#mov{
+margin-left: 120px; 
+}
+
+@media (max-width: 1022px) {
+    #mov{
+margin-left: 0px;
+    }
+    #mov2{
+        margin-right: 0px;
+    }
+
+}
+
+
+
 
 
 
@@ -144,13 +164,21 @@ margin-top: 84px;}
 #des2{
 font-size: 20px;
 margin-top: 9%;
+margin-bottom: 0px;
 }
 
 #des3{
 font-size: 20px;
 margin-top: 9%;
+margin-bottom: 0px;
 
 }
+
+#dess{
+font-size: 20px;
+}
+
+
 
 span.dot{
 position: absolute;
@@ -252,10 +280,44 @@ position: absolute;
     margin-top: 50px;
     }
 
+#testi{
+margin-top: 29px;
+}
+
+#font2::first-letter{
+    font-size: 150%;
+
+}
+
+
+#header::first-letter{
+    font-size: 150%;
+
+}
+
+#size::first-letter{
+    font-size: 130%;
+
+}
+
+#myfont::first-letter{
+    font-size: 130%;
+
+}
+
+
+
+
+
+
+
+
+
 .text-text{
 vertical-align: middle;
 display: inline-block;
-margin-left: 10px;
+margin-left: 21px;
+margin-top: 36px;
 }
 
 #space5{
@@ -349,6 +411,14 @@ border-radius: 12px;
 #space2{
 padding: 0px 20px 10px;
 }
+
+
+#visa{
+margin-left: 40px;
+}
+
+
+
 
 #button4:hover{
     opacity: 0.5;
