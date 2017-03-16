@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
 <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+ <link rel="stylesheet" href="WOW-master/css/libs/animate.css">
+
   <title>PhotoBook</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,13 +19,34 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
 </head>
 <style type="text/css">
 
 
 </style>
 
+<script type="text/javascript" src="WOW-master/dist/wow.min.js"></script>
+
 <script>
+wow = new WOW(
+{
+boxClass:     'wow', 
+animateClass: 'animated',
+offset:       100
+}
+);
+wow.init();
+</script>
+ 
+<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+<script>
+
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }
@@ -68,9 +91,9 @@ function closeNav() {
 <div class="abc">
 
 <div class="container">
-<h3 id="size">CREATE YOUR OWN PHOTOSTORY</h3>
-<h5 id="break">Make your photobook online</h5>
-<button id="button">MAKE YOUR PHOTOBOOK</button>
+<h3 id="size" class="wow slideInRight">CREATE YOUR OWN PHOTOSTORY</h3>
+<h5 id="break" class="wow slideInLeft">Make your photobook online</h5>
+<button id="button" class="wow bounceInUp">MAKE YOUR PHOTOBOOK</button>
 </div>
 </div>
 
@@ -79,26 +102,26 @@ function closeNav() {
 
 <div class="col-md-3 col-sm-3 hey">
 <img src="cloud.png" alt="cloud"><span class="dot"><img id="sg" src="doted.png" alt="line"></span>
-<p id="des2">Download</p>
-<p id="dess">photos</p>
+<p id="des2" class="wow fadeInDown">Download</p>
+<p id="dess" class="wow fadeInDown">photos</p>
 </div>
 
 <div class="col-md-3 col-sm-3 hey">
 <img src="design.png" alt="design"><span class="dot"><img id="sg" src="doted.png" alt="line"></span>
-<p id="des2">Design Your</p>
-<p id="dess">photobook</p>
+<p id="des2" class="wow fadeInDown">Design Your</p>
+<p id="dess" class="wow fadeInDown">photobook</p>
 </div>
 
 <div class="col-md-3 col-sm-3 hey">
 <img src="pay.png" alt="pay"><span class="dot"><img id="sg" src="doted.png" alt="line"></span>
-<p id="des2">Pay</p>
-<p id="dess">for services</p>
+<p id="des2" class="wow fadeInDown">Pay</p>
+<p id="dess" class="wow fadeInDown">for services</p>
 </div>
 
 <div class="col-md-3 col-sm-3 hey">
 <img src="get.png" alt="get">
-<p id="des3">Get your</p>
-<p id="dess">photobook</p>
+<p id="des3" class="wow fadeInDown">Get your</p>
+<p id="dess" class="wow fadeInDown">photobook</p>
 </div>
 
 </div>
@@ -107,7 +130,7 @@ function closeNav() {
  <div class="xyz" id="adv">
  <div class="container">
  <div id="adv2">
-<h2 id="header">ADVANTAGE</h2>
+<h2 id="header" class="wow slideInRight">ADVANTAGE</h2>
 </div>
  <div class="container-fluid bg-3 text-center">
 
@@ -117,8 +140,8 @@ function closeNav() {
 
 <img src="sm.png" alt="SocialMedia">
 <div class="caption">
-<a href="social" style="color:black; font-size: 25px">Import Photos From Your Social Network</a>
-      <p id="gap2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<a href="social" style="color:black; font-size: 25px" class="wow fadeInDown">Import Photos From Your Social Network</a>
+      <p id="gap2" class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 </div>
 
 
@@ -127,8 +150,8 @@ function closeNav() {
 <div class="col-md-4">
 <img src="billi.png" alt="PhotoEditor">
 <div class="caption">
-      <a href="Editor" style="color:black; font-size: 25px">Photo Editing</a>
-      <p id="gap3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="Editor" style="color:black; font-size: 25px" class="wow fadeInDown">Photo Editing</a>
+      <p id="gap3" class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
 
 </div>
@@ -136,12 +159,12 @@ function closeNav() {
 <div class="col-md-4">
 <img src="tem.png" alt="templates">
 <div class="caption">
-      <a href="templates" style="color:black; font-size: 25px">Templates</a>
-      <p id="gap3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="templates" style="color:black; font-size: 25px" class="wow fadeInDown">Templates</a>
+      <p id="gap3" class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
 </div>
 </div>
-<div id="move5"><button id="button2">MAKE YOUR PHOTOBOOK</button></div>
+<div id="move5"><button id="button2" class="wow bounceInUp">MAKE YOUR PHOTOBOOK</button></div>
 </div>
 
  </div>
@@ -151,10 +174,10 @@ function closeNav() {
  
 
   
-<div class="container-fluid bg-3 text-center"><h1 id="font2">READY SOLUTIONS</h1>
+<div class="container-fluid bg-3 text-center"><h1 id="font2" class="wow slideInLeft">READY SOLUTIONS</h1>
 <div class="container">
 
-<div class="col-md-4">
+<div class="col-md-4 wow pulse" data-wow-delay="2s">
 <div class="flex-container">
   <div class="flex-item"><p id="myfont">LIGHTBOOK</p>
   <div id="a">
@@ -172,7 +195,7 @@ function closeNav() {
 
 
 
-<div class="col-md-4">
+<div class="col-md-4 wow pulse" data-wow-delay="2s">
 
 <div class="flex-container4">
 <div class="hexagon"><img src="label.png" alt="hexagon" id="middle"></div>
@@ -197,7 +220,7 @@ function closeNav() {
 
 
 
-<div class="col-md-4">
+<div class="col-md-4 wow pulse" data-wow-delay="2s">
 <div class="flex-container">  
 <div class="flex-item"><p id="myfont">PREMIUMBOOK</p>
   <div id="a">
@@ -230,7 +253,7 @@ function closeNav() {
 <p>Wedding Photographer</p></div>
 </span>
 
-<div class="low3">
+<div class="low3" class="wow fadeInDown">
 <p class="low">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -241,7 +264,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 <div>
 <p class="arrow"><a class="arrow2" href="next">Next Testimonial     <span class="glyphicon glyphicon-arrow-right"></span></a></p></div>
-<div><button id="button3">MAKE YOUR PHOTOBOOK</button></div>
+<div><button id="button3" class="wow bounceInUp">MAKE YOUR PHOTOBOOK</button></div>
 
 </div>
 </div>
@@ -249,7 +272,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <div>
 
 <div class="container">
-<div class="col-md-4 col-sm-6">
+<div class="col-md-4 col-sm-6 wow pulse" data-wow-delay="2s">
      <div class="flex-container">
       <div class="flex-item2"><p id="myfont" class="mar2">TERMS</p>
   <div id="c">
@@ -263,7 +286,7 @@ tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
     </div>
 
-    <div class="col-md-4 col-sm-6"> 
+    <div class="col-md-4 col-sm-6 wow pulse" data-wow-delay="2s"> 
       <div class="flex-container2"><div class="flex-item2"><p id="myfont" class="mar3">PAYMENT</p>
   <div id="c">
   <div id="f">
@@ -281,7 +304,7 @@ tempor incididunt ut labore et dolore magna aliqua.</p>
 </div>
     </div>
 
-    <div class="col-md-4 col-sm-6"> 
+    <div class="col-md-4 col-sm-6 wow pulse" data-wow-delay="2s"> 
       <div class="flex-container3">   <div class="flex-item2"><p id="myfont" class="mar3">SHIPPING</>
   <div id="c">
   <div id="e">
@@ -297,7 +320,7 @@ consequat.</p>
     </div>
     </div>
 
-    <div class="container-fluid bg-3 text-center"><button id="button4">MAKE YOUR PHOTOBOOK</button></div>
+    <div class="container-fluid bg-3 text-center"><button id="button4" class="wow bounceInUp">MAKE YOUR PHOTOBOOK</button></div>
 
 
     <div id="foot">
