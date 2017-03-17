@@ -274,10 +274,11 @@ position: absolute;
 }
 
 .testimonials {
-    background: url(testimonials.png) no-repeat;
+    background: url(testimonials.png) no-repeat #f9f0e5;
     min-height: 760px;
     background-size: 100% 100%;
     margin-top: 73px;
+    background-position: 100px;
     }
 
 #testi{
@@ -398,7 +399,7 @@ border-radius: 12px;
 }
 
 #space{
-   padding: 20px 20px 0px 20px;
+   padding: 20px 20px 0px 0px;
        font-size: -webkit-xxx-large;
 }
 
@@ -531,58 +532,9 @@ margin-left: 25%;
 }
 
 
-
-
-
 .hey{
 text-align: center;
 position: relative;
-}
-
-@media (max-width: 320px)
-{
-.flex-container2{
-margin-top: 125px;
-}
-.flex-container3{
-margin-top: 130px;
-}
-}
-
-
-
-@media (max-width: 320px){
-.flex-container2{
-margin-top: 135px;
-}
-}
-
-
-
-
-
-@media (max-width: 768px){
-
-.flex-container3{
-  margin-top: 141px;
- }
-
-}
-
-@media (max-width: 990px){
-
-.flex-container3{
-  margin-top: 141px;
- }
-
-}
-
-}
-
-@media (max-width: : 320px){
-    .right2{
-width: 100%;
-}
 }
 
 
@@ -592,4 +544,31 @@ width: 100%;
 font-size: 14px;
 }
 }
+
+@media (max-width: 480px){
+.flex-container2{
+margin-top: 116px;
+}
+.flex-container3{
+margin-top: 147px;
+}
+}
+
+@media (max-width: 990px){
+.flex-container2{
+margin-top: 141px;
+}
+.flex-container3{
+margin-top: 147px;
+}
+}
+
+@media (max-width: 480px){
+
+    .hexagon{
+        visibility: hidden;
+    }
+
+}
+
 
