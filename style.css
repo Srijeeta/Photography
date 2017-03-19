@@ -152,11 +152,6 @@ background: white;
      margin-top: 60px;
    }
 
-@media (min-width: 320px) and (max-width: 480px){
-#size{
-font-size: 50px;
-}
-}
 
 #des{
 margin-top: 84px;}
@@ -305,6 +300,10 @@ margin-top: 29px;
     font-size: 130%;
 
 }
+#myfont5::first-letter{
+    font-size: 130%;
+
+}
 
 
 
@@ -437,13 +436,8 @@ margin-left: 40px;
 
 
 
-.mar2{
-margin-left: 97px;}
 
 
-.mar3{
-  margin-left: 80px;
-}
 
 #yel{
 color: #ffcc00;
@@ -568,7 +562,45 @@ margin-top: 147px;
     .hexagon{
         visibility: hidden;
     }
+    #size{
+        font-size: 42px;
+        }
+        #button{
+            font-size: 20px;
+        } 
 
+        .text-text{
+font-size: 11px;
+        }  
 }
+
+#myfont5{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 31px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
