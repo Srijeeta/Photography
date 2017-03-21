@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <link rel="stylesheet" type="text/css" href="style.css"/>
 <link rel="stylesheet" type="text/css" href="footer.css"/>
 <link href="https://fonts.googleapis.com/css?family=Arsenal|Josefin+Slab|Julius+Sans+One|Monda" rel="stylesheet"> 
@@ -9,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
  <link rel="stylesheet" href="WOW-master/css/libs/animate.css">
+ <link rel="shortcut icon" type="image/ico" href="icon.ico"/>
 
   <title>PhotoBook</title>
   <meta charset="utf-8">
@@ -74,18 +76,13 @@ function topFunction() {
 <button onclick="topFunction()" id="myBtn" title="Go to top">Back to TOP</button>
 
 <nav class="navbar" style="margin-bottom: 0px">
-  <div class="container-fluid" id="mar">
-    <div class="navbar-header">
+  <div class="container" id="mar">
+    <ul class="nav navbar-nav" style="float: none; display: inline;">
+      <li class="pull-left"><a onclick="openNav()"><div class="menu"></div><div class="menu"></div><div class="menu"></div></a></li>
+      <li class="pull-left lmn"><a href="#"><img src="book.png" id="book"></a></li>
+      <li class="pull-right"><a href="#"><img id="down" src=download.png height=28></a></li>
+     <li class="pull-right"><a href="#contact" id="number">+11 235 813 2134</a></li>
     </div>
-    <ul class="nav navbar-nav" id="mov">
-      <li class="active"><a onclick="openNav()"><div class="menu"></div><div class="menu"></div><div class="menu"></div></a></li>
-       </a>
-      <li><a href="#"><img src="book.png"></a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right" id="mov2">
-     <li class="right"><a href="#contact" id="number">+11 235 813 2134</a></li>
-      <li><a href="#"><img id="down" src=download.png height=28></a></li>
-    </ul>
   </div>
 </nav>
 

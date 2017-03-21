@@ -1,3 +1,4 @@
+
 .abc{
  background: url(original.png) no-repeat; 
 background-size: 100% 100%;
@@ -79,6 +80,10 @@ padding: 0px;}
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+}
+.nav navbar-nav
+{
+    float:left;
 }
 
 .sidenav a {
@@ -700,6 +705,79 @@ text-align: center;
     }
 
 
+}
+
+
+
+@media (max-width: 768px){
+#number{
+   display: none;
+}
+.lmn{
+width:78%;
+text-align: center;
+}
+}
+
+@media (max-width: 710px){
+#number{
+   display: none;
+}
+.lmn{
+width:76%;
+text-align: center;
+}
+}
+
+@media (max-width: 649px){
+#number{
+   display: none;
+}
+.lmn{
+width:74%;
+text-align: center;
+}
+}
+
+@media (max-width: 607px){
+#number{
+   display: none;
+}
+.lmn{
+width:65%;
+text-align: center;
+}
+}
+
+@media (max-width: 480px){
+#number{
+    display: none;
+}
+.lmn{
+width:59%;
+text-align: center;
+}
+}
+
+@media (max-width: 400px){
+#number{
+    display: none;
+}
+.lmn{
+width:53%;
+text-align: center;
+}
+}
+
+
+@media (max-width: 320px){
+#number{
+    display: none;
+}
+.lmn{
+width:50%;
+text-align: center;
+}
 }
 
 
