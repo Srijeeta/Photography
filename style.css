@@ -224,6 +224,23 @@ visibility: hidden;
     margin: 20px;
     border-radius: 12px;
 }
+
+.flex-iteml {
+    background-color: rgb(255,210,0);
+    width: 300px;
+    height: 370px;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+.flex-itemp {
+    background-color: rgb(255,210,0);
+    width: 300px;
+    height: 370px;
+    margin: 20px;
+    border-radius: 12px;
+}
+
 #a{
 display: block;
 background-color: white;
@@ -237,6 +254,13 @@ margin: 30px 5px 0px 4px;
     line-height: 34px;
     font-size: large;
 }
+.z{
+    text-align: left;
+    line-height: 34px;
+    font-size: large;
+
+}
+
 .b2{
     text-align: left;
     line-height: 30px;
@@ -576,21 +600,8 @@ position: relative;
 }
 
 
-@media (max-width: 320px)
-{
-.text-text{
-font-size: 14px;
-}
-}
 
-@media (max-width: 480px){
-.flex-container2{
-margin-top: 116px;
-}
-.flex-container3{
-margin-top: 147px;
-}
-}
+
 
 @media (max-width: 990px){
 .flex-container2{
@@ -598,6 +609,15 @@ margin-top: 160px;
 }
 .flex-container3{
 margin-top: 171px;
+}
+}
+
+@media (max-width: 480px){
+.flex-container2{
+margin-top: 192px;
+}
+.flex-container3{
+margin-top: 200px;
 }
 }
 
@@ -612,6 +632,14 @@ margin-top: 171px;
         .text-text{
 font-size: 11px;
         }  
+}
+
+
+@media (max-width: 320px)
+{
+.text-text{
+font-size: 9px;
+}
 }
 
 #myfont5{
@@ -690,7 +718,7 @@ text-align: center;
 @media (max-width: 320px){
     #middle{
 
-    -moz-transform: translate(20%, 0);
+    -moz-transform: translate(18%, 0);
     -webkit-transform: translate(-50%, 0);
 }
 }
@@ -775,11 +803,66 @@ text-align: center;
     display: none;
 }
 .lmn{
-width:50%;
+width:49%;
 text-align: center;
 }
 }
 
+@media (max-width: 375px){
+    .flex-item{
+        height: 404px;
+    }
+}
+
+@media (max-width: 360px){
+.flex-item{
+height: 406px;
+}
+
+.flex-iteml{
+    height: 402px;
+}
+}
+@media (max-width: 320px){
+    .flex-iteml{
+        height: 429px;
+    }
+    .flex-item{
+    height: 420px;
+    }
+
+    .flex-itemp{
+        height: 392px;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 1024px){
+    #space3{
+        font-size: 13px;
+    }
+    .z{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 320px){
+    #space{
+        font-size: 30px;
+    }
+    #space3{
+        font-size: 11px;
+    }
+
+    #e{
+        font-size: 13px;
+    }
+}
 
 
 
