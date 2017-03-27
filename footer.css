@@ -2,12 +2,12 @@
 background-color: #ffcc00;
 }
 
-#footer{
+.footer{
 	
 	padding-top: 20px;
 }
 
-#pq{
+.pq{
 color: black;
 line-height: 200%;}
 
@@ -30,7 +30,7 @@ margin-top: 46px;
 float:right;
 }
 
-#hrr{
+.hrr{
     margin-bottom: 20px;
     border: 0;
     border-top: 1px solid black;
@@ -46,6 +46,10 @@ float:right;
 
 #n{
 margin-left: 10px;
+}
+
+#m{
+	margin-left: 10px;
 }
 
 

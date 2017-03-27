@@ -1,4 +1,5 @@
 
+
 .abc{
  background: url(original.png) no-repeat; 
 background-size: 100% 100%;
@@ -49,6 +50,8 @@ margin-bottom: 50px;
          border-radius: 15px;
          text-decoration: underline;
          text-decoration-style: dotted;
+          -moz-text-decoration-style: dotted; 
+         -webkit-text-decoration-style: dotted;
          color:black;
          margin-right: 10px;
          margin-top: 8px;
@@ -160,7 +163,7 @@ background: white;
 #des{
 margin-top: 84px;}
 
-#des2{
+.des2{
 font-size: 20px;
 margin-top: 9%;
 margin-bottom: 0px;
@@ -173,7 +176,7 @@ margin-bottom: 0px;
 
 }
 
-#dess{
+.dess{
 font-size: 20px;
 }
 
@@ -241,7 +244,7 @@ visibility: hidden;
     border-radius: 12px;
 }
 
-#a{
+.a{
 display: block;
 background-color: white;
 max-width: 100%;
@@ -253,11 +256,13 @@ margin: 30px 5px 0px 4px;
     text-align: left;
     line-height: 34px;
     font-size: large;
+    padding-left: 14px;
 }
 .z{
     text-align: left;
     line-height: 34px;
     font-size: large;
+    padding-left: 14px;
 
 }
 
@@ -265,6 +270,7 @@ margin: 30px 5px 0px 4px;
     text-align: left;
     line-height: 30px;
     font-size: large;
+    padding-left: 14px;
 }
 
 
@@ -281,7 +287,7 @@ margin: 30px 5px 0px 4px;
 .dollar3{
     padding-bottom: 6px;
 }
-#text{
+.text{
 font-family: 'Josefin Slab', serif;
 padding-top: 16px;
 font-size: 15px;
@@ -307,7 +313,7 @@ margin-top: 60px;
     font-size: -webkit-xxx-large;
 }
 
-#myfont{
+.myfont{
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 30px;
 margin-top: 25px;
@@ -347,11 +353,11 @@ margin-top: 29px;
 
 }
 
-#myfont::first-letter{
+.myfont::first-letter{
     font-size: 130%;
 
 }
-#myfont5::first-letter{
+.myfont5::first-letter{
     font-size: 130%;
 
 }
@@ -414,7 +420,7 @@ background-color: #ffcc00;}
 
 
 
-/*#c{
+/*.c{
 background-color: white;
 padding-top: 0.5px;
 }*/
@@ -425,7 +431,7 @@ margin-top: 6px;
         border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
-#e{
+.e{
     background-color: #f8efe6;
 margin-top: 6px;
 height: 210px;
@@ -464,7 +470,7 @@ padding: 0px 20px 10px;
 }
 
 
-#visa{
+.visa{
 margin-left: 40px;
 }
 
@@ -539,7 +545,7 @@ margin-top: 20px;}
 #gap2{
 margin-top:20px;
 }
-#gap3{
+.gap3{
 margin-top: 30px;}
 
 .hexagon{
@@ -642,7 +648,7 @@ font-size: 9px;
 }
 }
 
-#myfont5{
+.myfont5{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 31px;
     text-align: center;
@@ -675,9 +681,10 @@ text-align: center;
 }
 
 #pm{
-        margin-bottom: 0px;
+      margin-bottom: 0px;
     margin-top: 0px;
-    padding-top: 14px;
+    padding-top: 22px;
+    padding-left: 29px;
 }
 
 
@@ -731,8 +738,6 @@ text-align: center;
     #down{
         margin-left: 14px;
     }
-
-
 }
 
 
@@ -837,6 +842,15 @@ height: 406px;
 
 }
 
+@media (max-width: 1200px){
+    .z{
+        font-size: 16px;
+    }
+    .e{
+        font-size: 12px;
+    }
+}
+
 
 
 
@@ -863,6 +877,7 @@ height: 406px;
         font-size: 13px;
     }
 }
+
 
 
 
